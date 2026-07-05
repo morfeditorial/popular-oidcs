@@ -5,7 +5,7 @@
     "license": "LicenseRef-CSSM-Unlimited-2.0",
     "require": {
         "php": ">=8.4",
-        "morfeditorial/machinima-app": "*@dev",
+        "morfeditorial/machinima-app": "dev-main",
         "symfony/framework-bundle": "8.1.*",
         "symfony/http-client": "8.1.*",
         "symfony/routing": "8.1.*",
