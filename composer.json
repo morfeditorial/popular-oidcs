@@ -1,0 +1,19 @@
+{
+    "name": "morfeditorial/popular-oidcs",
+    "description": "OpenID Connect / OAuth 2.0 identity provider adapter for the Machinima core app.",
+    "type": "symfony-bundle",
+    "license": "LicenseRef-CSSM-Unlimited-2.0",
+    "require": {
+        "php": ">=8.4",
+        "morfeditorial/machinima-app": "*@dev",
+        "symfony/framework-bundle": "8.1.*",
+        "symfony/http-client": "8.1.*",
+        "symfony/routing": "8.1.*",
+        "symfony/security-bundle": "8.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Morfeditorial\\PopularOidcs\\": "src/"
+        }
+    }
+}
