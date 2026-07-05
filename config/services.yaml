@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Morfeditorial\PopularOidcs\:
+        resource: '../src/'
+        exclude:
+            - '../src/PopularOidcsBundle.php'
+            - '../src/DependencyInjection/'
