@@ -9,12 +9,14 @@ use App\Contract\IdentityProviderMetadataProvider;
 use App\Contract\IdentityProviderPort;
 use Morfeditorial\PopularOidcs\OAuth\OAuthClient;
 use Morfeditorial\PopularOidcs\OAuth\ProviderConfiguration;
+use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 
 final class OauthIdentityProvider implements IdentityProviderPort, IdentityProviderMetadataProvider
 {
     public function __construct(
         private ProviderConfiguration $config,
         private OAuthClient $client,
+        private UrlGeneratorInterface $router,
     ) {
     }
 
@@ -33,6 +35,9 @@ final class OauthIdentityProvider implements IdentityProviderPort, IdentityProvi
         return [
             'label' => $this->config->getLabel(),
             'icon' => $this->config->getIcon(),
+            'login_url' => $this->router->generate('popular_oidcs_login', [
+                'provider' => $this->config->getIcon(),
+            ]),
         ];
     }
 
