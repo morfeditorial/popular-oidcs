@@ -3,6 +3,12 @@
     "description": "OpenID Connect / OAuth 2.0 identity provider adapter for the Machinima core app.",
     "type": "symfony-bundle",
     "license": "LicenseRef-CSSM-Unlimited-2.0",
+    "authors": [
+        {
+            "name": "Serhii Cherneha",
+            "email": "chernegasergiy3@gmail.com"
+        }
+    ],
     "require": {
         "php": ">=8.4",
         "morfeditorial/machinima-app": "dev-main",
