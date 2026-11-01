@@ -6,6 +6,8 @@
 
 *OpenID Connect / OAuth 2.0 identity provider adapter for the Machinima platform.*
 
+[![Latest Stable Version](https://img.shields.io/packagist/v/morfeditorial/popular-oidcs.svg?label=Packagist&logo=packagist)](https://packagist.org/packages/morfeditorial/popular-oidcs)
+[![Total Downloads](https://img.shields.io/packagist/dt/morfeditorial/popular-oidcs.svg?label=Downloads&logo=packagist)](https://packagist.org/packages/morfeditorial/popular-oidcs)
 [![License](https://img.shields.io/packagist/l/morfeditorial/popular-oidcs.svg?label=Licence&logo=open-source-initiative)](https://packagist.org/packages/morfeditorial/popular-oidcs)
 
 [Architecture](#architecture) · [Tech stack](#tech-stack) · [Installation](#installation) · [Configuration](#configuration) · [Routes](#routes) · [Contributing](#contributing)
